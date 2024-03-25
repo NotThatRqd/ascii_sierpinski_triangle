@@ -5,15 +5,20 @@ Run using any Haskell compiler you want, it doesn't use any dependencies or anyt
 If you don't know how to use Haskell, just copy and paste the code in Main.hs into a
 Haskell [Repl.it](https://repl.it), click run, and type "main" into GHCI
 
-Here are some examples of the different "depths":
+Here are some examples of  different sizes:
 
 0:
+```
+/\
+```
+
+1:
 ```
  /\ 
 /\/\
 ```
 
-1:
+2:
 ```
    /\   
   /\/\  
@@ -21,7 +26,7 @@ Here are some examples of the different "depths":
 /\/\/\/\
 ```
 
-2:
+3:
 ```
        /\       
       /\/\      
@@ -33,7 +38,7 @@ Here are some examples of the different "depths":
 /\/\/\/\/\/\/\/\
 ```
 
-3:
+4:
 ```
                /\               
               /\/\              
@@ -53,7 +58,7 @@ Here are some examples of the different "depths":
 /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 ```
 
-4:
+5:
 ```
                                /\                               
                               /\/\                              
