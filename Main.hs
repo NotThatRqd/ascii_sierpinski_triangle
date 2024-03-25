@@ -2,7 +2,7 @@ module Main where
 
 main :: IO ()
 main = do
-    putStr "Enter depth of triangle (must be greater than or equal to 0): "
+    putStr "Enter size of triangle (must be greater than or equal to 0): "
     input <- getLine
     let n = (read input :: Int)
     printTriangle n
@@ -24,5 +24,4 @@ halfWidthOfTriangle :: [String] -> Int
 halfWidthOfTriangle = (`div` 2) . length . head
 
 smallest :: [String]
-smallest = lines " /\\ \n\
-                 \/\\/\\"
+smallest = lines "/\\"
